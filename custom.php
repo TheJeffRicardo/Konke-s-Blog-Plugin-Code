@@ -9,8 +9,6 @@
  * Author:            JeffRicardo
  */
 
-add_filter( 'show_admin_bar', '__return_false' );
-
 
 add_action( 'admin_menu', 'wporg_options_page' );
 function wporg_options_page() {
